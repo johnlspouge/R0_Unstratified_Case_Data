@@ -1,0 +1,424 @@
+-- Reading "owid-covid-data.json" started --
+-- Reading "owid-covid-data.json" ended --
+-- Elapsed time 0 secs --
+-- Writing "../Output/code2country.json" ended --
+-- Elapsed time 0 secs --
+-- Writing regression files started --
+-- "Afghanistan" started --
+-- Elapsed time 0 secs --
+-- "Angola" started --
+-- Elapsed time 0 secs --
+-- "Albania" started --
+-- Elapsed time 0 secs --
+-- "Andorra" started --
+-- Elapsed time 0 secs --
+-- "United Arab Emirates" started --
+-- Elapsed time 0 secs --
+-- "Argentina" started --
+-- Elapsed time 0 secs --
+-- "Armenia" started --
+-- Elapsed time 0 secs --
+-- "Antigua and Barbuda" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 0 secs --
+-- "Australia" started --
+-- Elapsed time 1 secs --
+-- "Austria" started --
+-- Elapsed time 1 secs --
+-- "Azerbaijan" started --
+-- Elapsed time 1 secs --
+-- "Burundi" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 1 secs --
+-- "Belgium" started --
+-- Elapsed time 1 secs --
+-- "Benin" started --
+-- Elapsed time 1 secs --
+-- "Burkina Faso" started --
+-- Elapsed time 1 secs --
+-- "Bangladesh" started --
+-- Elapsed time 1 secs --
+-- "Bulgaria" started --
+-- Elapsed time 1 secs --
+-- "Bahrain" started --
+-- Elapsed time 1 secs --
+-- "Bahamas" started --
+-- Elapsed time 1 secs --
+-- "Bosnia and Herzegovina" started --
+-- Elapsed time 1 secs --
+-- "Belarus" started --
+-- Elapsed time 1 secs --
+-- "Belize" started --
+-- Elapsed time 1 secs --
+-- "Bolivia" started --
+-- Elapsed time 1 secs --
+-- "Brazil" started --
+-- Elapsed time 1 secs --
+-- "Barbados" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 1 secs --
+-- "Brunei" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 1 secs --
+-- "Bhutan" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 1 secs --
+-- "Botswana" started --
+-- Elapsed time 2 secs --
+-- "Central African Republic" started --
+-- Elapsed time 2 secs --
+-- "Canada" started --
+-- Elapsed time 2 secs --
+-- "Switzerland" started --
+-- Elapsed time 2 secs --
+-- "Chile" started --
+-- Elapsed time 2 secs --
+-- "China" started --
+-- Elapsed time 2 secs --
+-- "Cote d'Ivoire" started --
+-- Elapsed time 2 secs --
+-- "Cameroon" started --
+-- Elapsed time 2 secs --
+-- "Democratic Republic of Congo" started --
+-- Elapsed time 2 secs --
+-- "Congo" started --
+-- Elapsed time 2 secs --
+-- "Colombia" started --
+-- Elapsed time 2 secs --
+-- "Comoros" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 2 secs --
+-- "Cape Verde" started --
+-- Elapsed time 2 secs --
+-- "Costa Rica" started --
+-- Elapsed time 2 secs --
+-- "Cuba" started --
+-- Elapsed time 2 secs --
+-- "Cyprus" started --
+-- Elapsed time 2 secs --
+-- "Czech Republic" started --
+-- Elapsed time 2 secs --
+-- "Germany" started --
+-- Elapsed time 2 secs --
+-- "Djibouti" started --
+-- Elapsed time 2 secs --
+-- "Dominica" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 2 secs --
+-- "Denmark" started --
+-- Elapsed time 3 secs --
+-- "Dominican Republic" started --
+-- Elapsed time 3 secs --
+-- "Algeria" started --
+-- Elapsed time 3 secs --
+-- "Ecuador" started --
+-- Elapsed time 3 secs --
+-- "Egypt" started --
+-- Elapsed time 3 secs --
+-- "Eritrea" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 3 secs --
+-- "Western Sahara" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 3 secs --
+-- "Spain" started --
+-- Elapsed time 3 secs --
+-- "Estonia" started --
+-- Elapsed time 3 secs --
+-- "Ethiopia" started --
+-- Elapsed time 3 secs --
+-- "Finland" started --
+-- Elapsed time 3 secs --
+-- "Fiji" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 3 secs --
+-- "France" started --
+-- Elapsed time 3 secs --
+-- "Gabon" started --
+-- Elapsed time 3 secs --
+-- "United Kingdom" started --
+-- Elapsed time 3 secs --
+-- "Georgia" started --
+-- Elapsed time 3 secs --
+-- "Ghana" started --
+-- Elapsed time 4 secs --
+-- "Guinea" started --
+-- Elapsed time 4 secs --
+-- "Gambia" started --
+-- Elapsed time 4 secs --
+-- "Guinea-Bissau" started --
+-- Elapsed time 4 secs --
+-- "Equatorial Guinea" started --
+-- Elapsed time 4 secs --
+-- "Greece" started --
+-- Elapsed time 4 secs --
+-- "Grenada" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 4 secs --
+-- "Guatemala" started --
+-- Elapsed time 4 secs --
+-- "Guyana" started --
+-- Elapsed time 4 secs --
+-- "Hong Kong" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 4 secs --
+-- "Honduras" started --
+-- Elapsed time 4 secs --
+-- "Croatia" started --
+-- Elapsed time 4 secs --
+-- "Haiti" started --
+-- Elapsed time 4 secs --
+-- "Hungary" started --
+-- Elapsed time 4 secs --
+-- "Indonesia" started --
+-- Elapsed time 4 secs --
+-- "India" started --
+-- Elapsed time 4 secs --
+-- "Ireland" started --
+-- Elapsed time 4 secs --
+-- "Iran" started --
+-- Elapsed time 5 secs --
+-- "Iraq" started --
+-- Elapsed time 5 secs --
+-- "Iceland" started --
+-- Elapsed time 5 secs --
+-- "Israel" started --
+-- Elapsed time 5 secs --
+-- "Italy" started --
+-- Elapsed time 5 secs --
+-- "Jamaica" started --
+-- Elapsed time 5 secs --
+-- "Jordan" started --
+-- Elapsed time 5 secs --
+-- "Japan" started --
+-- Elapsed time 5 secs --
+-- "Kazakhstan" started --
+-- Elapsed time 5 secs --
+-- "Kenya" started --
+-- Elapsed time 5 secs --
+-- "Kyrgyzstan" started --
+-- Elapsed time 5 secs --
+-- "Cambodia" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 5 secs --
+-- "Saint Kitts and Nevis" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 5 secs --
+-- "South Korea" started --
+-- Elapsed time 5 secs --
+-- "Kuwait" started --
+-- Elapsed time 5 secs --
+-- "Laos" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 5 secs --
+-- "Lebanon" started --
+-- Elapsed time 6 secs --
+-- "Liberia" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 6 secs --
+-- "Libya" started --
+-- Elapsed time 6 secs --
+-- "Saint Lucia" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 6 secs --
+-- "Liechtenstein" started --
+-- Elapsed time 6 secs --
+-- "Sri Lanka" started --
+-- Elapsed time 6 secs --
+-- "Lesotho" started --
+-- Elapsed time 6 secs --
+-- "Lithuania" started --
+-- Elapsed time 6 secs --
+-- "Luxembourg" started --
+-- Elapsed time 6 secs --
+-- "Latvia" started --
+-- Elapsed time 6 secs --
+-- "Morocco" started --
+-- Elapsed time 6 secs --
+-- "Monaco" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 6 secs --
+-- "Moldova" started --
+-- Elapsed time 6 secs --
+-- "Madagascar" started --
+-- Elapsed time 6 secs --
+-- "Maldives" started --
+-- Elapsed time 6 secs --
+-- "Mexico" started --
+-- Elapsed time 6 secs --
+-- "Marshall Islands" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 6 secs --
+-- "Macedonia" started --
+-- Elapsed time 6 secs --
+-- "Mali" started --
+-- Elapsed time 6 secs --
+-- "Malta" started --
+-- Elapsed time 6 secs --
+-- "Myanmar" started --
+-- Elapsed time 6 secs --
+-- "Montenegro" started --
+-- Elapsed time 7 secs --
+-- "Mongolia" started --
+-- Elapsed time 7 secs --
+-- "Mozambique" started --
+-- Elapsed time 7 secs --
+-- "Mauritania" started --
+-- Elapsed time 7 secs --
+-- "Mauritius" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 7 secs --
+-- "Malawi" started --
+-- Elapsed time 7 secs --
+-- "Malaysia" started --
+-- Elapsed time 7 secs --
+-- "Namibia" started --
+-- Elapsed time 7 secs --
+-- "Niger" started --
+-- Elapsed time 7 secs --
+-- "Nigeria" started --
+-- Elapsed time 7 secs --
+-- "Nicaragua" started --
+-- Elapsed time 7 secs --
+-- "Netherlands" started --
+-- Elapsed time 7 secs --
+-- "Norway" started --
+-- Elapsed time 7 secs --
+-- "Nepal" started --
+-- Elapsed time 7 secs --
+-- "New Zealand" started --
+-- Elapsed time 7 secs --
+-- "Oman" started --
+-- Elapsed time 7 secs --
+-- "Kosovo" started --
+-- Elapsed time 7 secs --
+-- "World" started --
+-- Elapsed time 8 secs --
+-- "Pakistan" started --
+-- Elapsed time 8 secs --
+-- "Panama" started --
+-- Elapsed time 8 secs --
+-- "Peru" started --
+-- Elapsed time 8 secs --
+-- "Philippines" started --
+-- Elapsed time 8 secs --
+-- "Papua New Guinea" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 8 secs --
+-- "Poland" started --
+-- Elapsed time 8 secs --
+-- "Portugal" started --
+-- Elapsed time 8 secs --
+-- "Paraguay" started --
+-- Elapsed time 8 secs --
+-- "Palestine" started --
+-- Elapsed time 8 secs --
+-- "Qatar" started --
+-- Elapsed time 8 secs --
+-- "Romania" started --
+-- Elapsed time 8 secs --
+-- "Russia" started --
+-- Elapsed time 8 secs --
+-- "Rwanda" started --
+-- Elapsed time 8 secs --
+-- "Saudi Arabia" started --
+-- Elapsed time 9 secs --
+-- "Sudan" started --
+-- Elapsed time 9 secs --
+-- "Senegal" started --
+-- Elapsed time 9 secs --
+-- "Singapore" started --
+-- Elapsed time 9 secs --
+-- "Solomon Islands" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 9 secs --
+-- "Sierra Leone" started --
+-- Elapsed time 9 secs --
+-- "El Salvador" started --
+-- Elapsed time 9 secs --
+-- "San Marino" started --
+-- Elapsed time 9 secs --
+-- "Somalia" started --
+-- Elapsed time 9 secs --
+-- "Serbia" started --
+-- Elapsed time 9 secs --
+-- "South Sudan" started --
+-- Elapsed time 9 secs --
+-- "Sao Tome and Principe" started --
+-- Elapsed time 9 secs --
+-- "Suriname" started --
+-- Elapsed time 9 secs --
+-- "Slovakia" started --
+-- Elapsed time 9 secs --
+-- "Slovenia" started --
+-- Elapsed time 9 secs --
+-- "Sweden" started --
+-- Elapsed time 9 secs --
+-- "Swaziland" started --
+-- Elapsed time 9 secs --
+-- "Seychelles" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 9 secs --
+-- "Syria" started --
+-- Elapsed time 9 secs --
+-- "Chad" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 9 secs --
+-- "Togo" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 9 secs --
+-- "Thailand" started --
+-- Elapsed time 9 secs --
+-- "Tajikistan" started --
+-- Elapsed time 10 secs --
+-- "Timor" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 10 secs --
+-- "Trinidad and Tobago" started --
+-- Elapsed time 10 secs --
+-- "Tunisia" started --
+-- Elapsed time 10 secs --
+-- "Turkey" started --
+-- Elapsed time 10 secs --
+-- "Taiwan" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 10 secs --
+-- "Tanzania" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 10 secs --
+-- "Uganda" started --
+-- Elapsed time 10 secs --
+-- "Ukraine" started --
+-- Elapsed time 10 secs --
+-- "Uruguay" started --
+-- Elapsed time 10 secs --
+-- "United States" started --
+-- Elapsed time 10 secs --
+-- "Uzbekistan" started --
+-- Elapsed time 10 secs --
+-- "Vatican" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 10 secs --
+-- "Saint Vincent and the Grenadines" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 10 secs --
+-- "Venezuela" started --
+-- Elapsed time 10 secs --
+-- "Vietnam" started --
+-- Elapsed time 10 secs --
+-- "Vanuatu" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 10 secs --
+-- "Samoa" started --
+-- arrp needs at least 2 points to regress --
+-- Elapsed time 10 secs --
+-- "Yemen" started --
+-- Elapsed time 10 secs --
+-- "South Africa" started --
+-- Elapsed time 10 secs --
+-- "Zambia" started --
+-- Elapsed time 10 secs --
+-- "Zimbabwe" started --
+-- Elapsed time 10 secs --
+-- Writing regression files ended --
+-- Elapsed time 10 secs --

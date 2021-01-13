@@ -1,0 +1,86 @@
+﻿README
+
+Code is written in Python (except the CentOS executable ‘arrp.exe’, discussed below).
+Installation of the appropriate Python packages is assumed.
+
+This current working directory contains:
+    (1) This file README
+    (2) The directory Pipeline/
+
+Pipeline/ contains:
+    (1) make.log: log file monitoring STDERR and overwritten when ‘make.py’ executes
+    (2) make.py: Python makefile
+        a. executes with the command ‘python make.py’
+        b. drives the Python make files for the subdirectories in Pipeline/:
+            i. 1_Prem_Matrices_to_df/
+            ii. 2_ARRP/
+            iii. 3_Prem_Matrices_to_PF_Eigenvalue/
+            iv. 4_R0_ARRP/
+
+Pipeline/ subdirectories for a pipeline step all have a common structure:
+    (1) Data/: [optional] files from the Internet for the step
+        Data/ and its input files are never touched.
+    (2) Executable/: contains the Python makefile and executables
+        Trace execution by examining the makefile in Executable/.
+    (3) Output/: contains output from Executable/ files
+        Later steps may use the output files as input files.
+
+Pipeline/ subdirectories:
+    (1) 1_Prem_Matrices_to_df/
+        a. Data/
+            i. MUestimates_all_locations_1.json
+            ii. MUestimates_all_locations_2.json
+            iii. UNSDMethodology.csv
+        b. Output/
+            i. [3-letter UN ISO 3166 country code].csv
+    (2) 2_ARRP/
+        a. Data/
+            i. owid-covid-data.json
+        b. Executable/ : contains the usual Python makefile and executables
+            i. The file ‘arrp.exe’ is a C++ CentOS executable.
+            ii. C++ files for compilation on other systems can be found at https://tinyurl.com/spouge-arrp
+        c. Output/
+            i. ‘slope.csv’ has a single tab with several headings, 
+            some of which are:
+                1. slope = semi-log slope base e
+                2. error = standard deviation in estimate slope
+                3. start_date = first day with 30 or more smoothed cases
+                4. end_date = the day before either no data or less than 1 smoothed case
+                5. number_of_points = end_date – start_date + 1
+            ii. Countries/
+                1. [3-letter UN ISO 3166 country code].dat data file
+                2. [3-letter UN ISO 3166 country code].out output files
+                Each file corresponds to a country whose data permits ‘arrp.exe’ regime regression.
+    (3) 3_Prem_Matrices_to_PF_Eigenvalue/
+        a. Data/ not present
+            1_Prem_Matrices_to_df/Output/ provides the input.
+        b. Output/
+            i. ‘pf_eigenvalue.csv’ has a single tab with several headings:
+                1. “pf_eigenvalue” = Perron-Frobenius eigenvalue of full Prem contact matrix
+                2. “pf_eigenvalue[0…i]”  = eigenvalue of Prem contact matrix with rows and columns {0,1,…,i} deleted. 
+                    i = 0,1,…,7 corresponds to deleting age-groups up to 5,10,…,40 years old.
+    (4) 4_R0_ARRP/
+        a. Data/ 
+            i. ‘generation_time.json’ provides the parameters for gamma distribution of the generation time.
+        b. Output/
+            i. ‘pf_eigenvalue.csv’ has a single tab with several headings:
+                1. “pf_eigenvalue” = Perron-Frobenius eigenvalue of full Prem contact matrix
+                2. “pf_eigenvalue[0…i]”  = eigenvalue of Prem contact matrix with rows and columns {0,1,…,i} deleted.
+                3. i = 0,1,…,7; i.e., age-groups up to 5,10,…,40 years old deleted.
+
+Complete URLs for data sources. 
+    (1) UNSD — Methodology.csv
+        https://unstats.un.org/unsd/methodology/m49/overview/ 
+        (downloaded 2020-12-07)
+    (2) The standalone program ARRP Version 1.1 ARRP_1.1.zip
+        ftp://ftp.ncbi.nih.gov/pub/spouge/web/software/ARRP_1.1/  
+        (downloaded 2020-07-14)
+    (3) Oxford Our World in Data (OWID) file owid-covid-data.json
+        https://ourworldindata.org/coronavirus-data  
+        (downloaded 2020-12-07)
+    (4) OWID graph 
+        “Daily new confirmed case numbers” (smoothed over 7 days)
+        https://ourworldindata.org/coronavirus-data  
+    (5) Prem_2020 Contact Matrices 
+        https://doi.org/10.1371/journal.pcbi.1005697.s002 
+        (downloaded 2020-07-14)
